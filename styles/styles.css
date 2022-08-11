@@ -1,0 +1,110 @@
+
+body{
+    background-color: rgb(115, 59, 248);
+    font-family:'Fascinate', cursive;
+}
+header{
+border: solid 15px;
+border-color: orangered;
+background-color: blueviolet;
+column-gap: 700px;
+position: sticky;
+top: 0%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+
+    text-align: center;
+}
+h3{
+
+    font-size: 19px;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+nav{
+display: flex;
+justify-content: space-around;
+
+}
+
+li{
+list-style: none;
+}
+section{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+section div{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: column;
+    border: solid 4.5px blue;
+    width: 30%;
+    font-size: 27px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(253, 251, 251, 0.12) 0px -12px rgba(255, 255, 255, 0.12) 0.12 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+
+}
+
+section img{
+width: 100%;
+}
+.aca{
+display: flex;
+flex-direction: row;
+gap: 230px;
+border: solid 4.5px blueviolet;
+}
+.asa{
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+    border: solid 4.5px blueviolet;
+}
+.Aza{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    border: solid 4.5px blueviolet;
+
+}
+.Aza2{
+    display: flex;
+    flex-direction: row;
+    gap: 185px;
+    border: solid 4.5px blueviolet;
+    columns: 2;
+}
+.az17{
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    border: solid 4.5px blueviolet;
+}
+.a16{
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+    border: solid 4.5px blueviolet;
+
+}
+.a18{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    border: solid 4.5px blueviolet;
+
+}
+.pou{
+columns: 2;
+}
